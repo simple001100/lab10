@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./result.css">
+   <script src="./result-script.js" defer></script>
+   <title>Results</title>
+</head>
+
+<body>
+   <div class="result_container">
+      <div class="vacInMonth">
+         <div>
+            <label for="vac-month">Отпуск предоставится в </label>
+            <input type="month" id="vac-month" name="vac-month"><br>
+         </div>
+
+         <textarea name="list-vac-month" id="list-vac-month" cols="15" rows="4"></textarea>
+      </div>
+
+      <div class="quarter">
+         <div>
+            <label for="quarter">Отпуск завершится в
+               <select name="quarter" id="quarter">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+               </select> квартале</label>
+            <br>
+         </div>
+
+         <textarea name="list-by-quarter" id="list-by-quarter" cols="15" rows="4"></textarea>
+      </div>
+
+      <div class="next-year">
+         <label for="next-year">Отпуск предоставится в след. году</label><br>
+         <textarea name="next-year" id="next-year" cols="15" rows="4"></textarea>
+      </div>
+   </div>
+</body>
+
+</html>

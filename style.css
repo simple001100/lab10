@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper {
+}
+
+.questionnaire {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(212, 212, 212);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 4px 40px 4px 10px;
+  margin: 5px auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.vacation_btn {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(218, 196, 5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 1px 2px;
+}
+
+.vacation_btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.vacation_btn:active {
+  background-color: rgb(170, 153, 3);
+  opacity: 1;
+  box-shadow: none;
+}
+
+.submit_btn {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(12, 194, 12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 1px 2px;
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.submit_btn:active {
+  background-color: rgb(4, 160, 4);
+  opacity: 1;
+  box-shadow: none;
+}
+
+.result-link {
+  margin: 50px auto;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  position: relative;
+  border-radius: 15px;
+  background-color: rgb(104, 104, 104);
+  opacity: 0.8;
+  box-shadow: 1px 2px;
+}
+
+a {
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-link:hover {
+  transition: 300ms;
+  opacity: 1;
+}
+
+.result-link:active {
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+  transition: 300ms;
+}
